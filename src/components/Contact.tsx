@@ -27,15 +27,15 @@ export default function Contact() {
   
       emailjs
         .send(
-          'service_vj1evj3',
-          '5-lF89h2lmd6hVQnQ',
+          'service_yph42zx',
+          'template_vibyfi8',
           {
             to_name: "Sourabh Dubey",
             from_email: form.email,
             to_email: "sourabhdubey0408@gmail.com",
             message: form.message,
           },
-          '1_VB3LuKLMhq7MOSsE8q3'
+          '5-lF89h2lmd6hVQnQ'
         )
         .then(
           () => {
