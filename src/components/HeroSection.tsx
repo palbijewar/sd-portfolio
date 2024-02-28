@@ -2,6 +2,8 @@
 import React from 'react';
 import { Spotlight } from './ui/Spotlight';
 import { Button } from './ui/moving-border';
+import { Meteors } from "./ui/meteors";
+import { Boxes } from './ui/background-boxes';
 
 export default function HeroSection() {
   return (
@@ -11,6 +13,7 @@ export default function HeroSection() {
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="blue"
       />
+      <Boxes />
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Sourabh Dubey</h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">"Hey, I'm the AI Machine Learning maestro, orchestrating data symphonies and fine-tuning algorithms with precision. When I'm not decoding datasets, I'm crafting digital solutions faster than you can say 'binary brilliance.' Let's embark on an epic journey through the realms of AI together!"</p>
         <div className='mt-4'>
@@ -24,6 +27,7 @@ export default function HeroSection() {
           </a>
         </div>
       </div>
+      <Meteors number={50} />
     </div>
   );
 }

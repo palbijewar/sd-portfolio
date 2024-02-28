@@ -1,6 +1,8 @@
 import CoreCompetencies from "@/components/CoreCompetencies";
 import HeroSection from "@/components/HeroSection";
 import { Projects } from "@/components/Projects";
+import { Skills } from "@/components/Skills";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export default function Home() {
   return (
@@ -8,6 +10,9 @@ export default function Home() {
     <HeroSection />
     <Projects />
     <CoreCompetencies />
+    <TracingBeam className="px-6">
+    <Skills />
+    </TracingBeam>
   </main>
   );
 }
