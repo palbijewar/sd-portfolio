@@ -15,23 +15,14 @@ export default function Navbar({ className }: { className?: string }) {
           <MenuItem setActive={setActive} active={active} item="Home">
           </MenuItem>
           </Link>
+          <a href="#expertise">
           <MenuItem setActive={setActive} active={active} item="Expertise">
-           <div className="flex flex-col space-y-4 text-sm" >
-           <HoveredLink href="/expertise" >Projects</HoveredLink>
-           <HoveredLink href="/expertise" >All Projects</HoveredLink>
-           <HoveredLink href="/expertise" >ml model deployment</HoveredLink>
-           <HoveredLink href="/expertise" >Deep Learning Model Optimization</HoveredLink>
-           <HoveredLink href="/expertise" >synthetic data generation</HoveredLink>
-           <HoveredLink href="/expertise" >ml solution design</HoveredLink>
-           <HoveredLink href="/expertise" >end-to-end project execution</HoveredLink>
-           <HoveredLink href="/expertise" >statistical analysis</HoveredLink>
-           </div>
           </MenuItem>
-          <Link href={"#contact"} >
-          <MenuItem setActive={setActive} active={active} item="Contact">
-            
+          </a>
+          <a href="#contact">
+          <MenuItem setActive={setActive} active={active} item="Contact">     
             </MenuItem>
-          </Link>
+            </a>
       </Menu>
     </div>
   )

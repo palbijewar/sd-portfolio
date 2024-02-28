@@ -1,13 +1,16 @@
 "use client"
 import React from "react";
+import { LampContainer } from '@/components/ui/lamp';
+import { motion } from "framer-motion";
 
 
 export function Footer() {
     return (
-      <footer className="flex items-center justify-center bg-black text-gray-600 py-2">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <p>© 2024 Sourabh Dubey. All rights reserved.</p>
-        </div>
+      <footer className="flex items-center justify-center bg-black text-gray-1000">
+        <LampContainer>
+            <motion.h1>© 2024 Sourabh Dubey. All rights reserved.</motion.h1>
+        </LampContainer>
       </footer>
     );
   }
+

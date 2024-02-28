@@ -17,7 +17,7 @@ const socials = [
       designation: '',
       image:
         'https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?size=626&ext=jpg&ga=GA1.1.1565260471.1704550101&semt=ais',
-      link: 'https://www.linkedin.com/',
+      link: 'https://www.instagram.com/sourabh.dubey/',
     },
     {
       id: 3,
