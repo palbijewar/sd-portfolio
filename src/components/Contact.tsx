@@ -65,7 +65,7 @@ export default function Contact() {
               Contact me
             </h1>
             <p className="text-center text-xl text-neutral-400 mt-4">
-              I'm here to help with any inquiries related to AI and ML projects.
+              I am here to help with any inquiries related to AI and ML projects.
             </p>
             <form 
               ref={formRef}
